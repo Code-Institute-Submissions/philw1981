@@ -3,7 +3,7 @@ html {
 }
 
 #home-section {
-  background: url(/buildings-clouds-dawn-594226.jpg);
+  background: url(assets/img/buildings-clouds-dawn-594226.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -17,4 +17,9 @@ html {
 h1 {
   font-size: 60px;
   text-align: center;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: 1s;
 }
