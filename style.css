@@ -3,7 +3,7 @@ html {
 }
 
 #home-section {
-  background: url(/buildings-clouds-dawn-594226.jpg);
+  background: url(assets/img/buildings-clouds-dawn-594226.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -20,6 +20,41 @@ h1 {
 }
 
 img:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
   transform: scale(1.1);
+  -webkit-transition: 1s;
+  -o-transition: 1s;
   transition: 1s;
+}
+
+#first-carousel {
+  background-image: url('assets/img/wedding/band-blur-close-up-265730.jpg');
+}
+#second-carousel {
+  background-image: url('assets/img/cafe-chair-commercial-establishment-776938.jpg');
+}
+
+#third-carousel {
+  background-image: url('assets/img/baby-child-family-2456327.jpg');
+}
+/*to target carousel size*/
+
+.carousel-inner .carousel-item {
+  height: 500px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*to target carousel size*/
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: aliceblue;
 }
