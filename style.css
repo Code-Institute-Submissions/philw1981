@@ -3,7 +3,7 @@ html {
 }
 
 #home-section {
-  background: url(/buildings-clouds-dawn-594226.jpg);
+  background: url(/assets/img/buildings-clouds-dawn-594226.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -15,7 +15,7 @@ html {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 3em;
   text-align: center;
 }
 
@@ -52,7 +52,6 @@ img:hover {
 /*to target carousel size*/
 
 .navbar {
-  overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;
